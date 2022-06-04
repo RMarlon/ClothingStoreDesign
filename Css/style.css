@@ -207,8 +207,6 @@ a:hover{
 }
 
 .localization-map{
-    height: 300px;
-    width: 400px;
     box-shadow: #F08080 2px 2px 2px;
 }
 /* End footer-div-container */
@@ -247,6 +245,11 @@ a:hover{
     .section-ul-container h4{
         margin-left: 1rem;
         max-width: 90%;
+    }
+
+    .localization-map{
+        height: 300px;
+        width: 400px;
     }
     
     #menu {
