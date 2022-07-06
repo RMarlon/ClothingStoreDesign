@@ -1,0 +1,103 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    /* background-repeat: no-repeat; */
+    width: 900px;
+    margin: auto;
+}
+.moda-container{
+    text-shadow: #96e 2px 2px 2px;
+    color: #8fd3f4;
+}
+a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.container{
+    background: url(/Img/@modaFluflu.png);
+    background-repeat: no-repeat;
+    box-sizing: content-box;
+    box-shadow: #F08080 2px 2px 2px;
+    border-radius: 10px;
+    height: 500px;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    color: white;
+    padding: 10px;
+}
+
+.container-p{
+    display: inline-block;
+    max-width: 50%;
+    text-align: justify;
+    margin-left: 3rem;
+    margin-top: 4rem;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    color: black;
+    text-shadow: #FFE4C4 2px 2px 2px;
+}
+img{
+    border-radius: 50%;
+}
+.img-container {
+    
+    display: inline-flex;
+    margin-left: 10rem;
+}
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 77%;
+    color: #F08080;
+    text-shadow:black 2px 2px 2px;
+}
+
+li{
+    text-decoration: none;
+    list-style: none;
+    margin: 1rem;
+}
+.ul-container{
+    display: flex;
+    justify-content: end;
+    
+}
+
+@media (max-width: 950px) {
+    body{
+        max-width: 450px;
+    }
+    h1{
+        margin: 0%;
+        padding: 0%;
+    }
+    .container{
+        height: 555px;
+        font-size: 13px;
+    }
+    .container-p p{
+        text-align:justify;
+        text-align: left;
+        font-size: 15px;
+        width: 400px;
+    }
+
+    .img-container img {
+        display: inline-flex;
+        margin-left: 10rem;
+        width: 90px;
+    }
+    h3{
+        padding: 0%;
+        margin-right: 3%;
+    }
+}
