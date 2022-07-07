@@ -220,34 +220,63 @@ a:hover{
 /* Start scrollbar */
 
 /* End scrollbar */
-    
+
+    @media(max-width:868px){
+        .container{
+            justify-content: space-between;
+            margin-left: 0%;
+            margin-right: 0%;
+        }
+
+        .section-div-container{
+            padding: 1rem;
+            font-size: 30px;
+            max-width: 100%;
+        }
+
+        .section-container h2{
+            font-size: 25px;
+        }
+        .section-ul-container{
+            display: block;
+            max-width: 410px;
+            margin: auto;
+        }
+
+        .section-ul-container, h4{
+            margin-top: 1rem;
+        }
+
+        .localization-map{
+            height: 400px;
+            width: 500px;
+        }
+    }
 /* End of website body */
 
 @media (max-width: 600px) {
     .container {
         justify-content: space-between;
     }
-    .section-container h1{
-        font-size: 25px;
+    .section-div-container{
+        padding: 1rem;
+        font-size: 20px;
+        max-width: 100%;
     }
     .section-container h2{
-        font-size: 25px;
-    }
-    .section-container h3{
-        font-size: 25px;
+        font-size: 20px;
     }
     .section-ul-container{
         display: block;
+        max-width: 410px;
+        margin: auto;
     }
     .section-ul-container p{
-        margin-left: 1rem;
-        max-width: 92%;
+        margin: 0%;
     }
-    .section-ul-container h4{
-        margin-left: 1rem;
-        max-width: 90%;
+    .section-ul-container, h4{
+        margin-top: 1rem;
     }
-
     .localization-map{
         height: 300px;
         width: 400px;
